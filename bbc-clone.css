@@ -1,0 +1,382 @@
+
+        
+            #topbar{
+                
+                width:1050px;
+                height: 40px;
+                margin: 0 auto;   /*for making div centered*/
+                
+            }
+            
+            body{
+                
+                margin: 0;
+                padding:0;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            #bbclogo{
+                
+                margin:8px;
+                float: left;
+            }
+            
+            .topbar-section{
+                
+                float:left;
+                border-left: 1px #CCCCCC solid;
+                height: 100%;
+            }
+            
+            #sign-in-image{
+                
+                width:25px;
+                margin: 10px;
+                float:left;
+            }
+            
+            #sign-in-text{
+                
+                position: relative;
+                top:14px;
+                left:10px;
+                font-weight: bold;
+                font-size: 14px;
+                
+            }
+            
+            #zigzag{
+                
+                margin-left: 80px;
+                height: 40px;
+            }
+            
+            #bell-icon{
+                
+                height:25px;
+                margin-bottom: 7px;
+                margin-left: 10px;
+                margin-right: 15px;
+            }
+            
+            #bell{
+                
+                float:left;
+            }
+            
+            .topbar-menu{
+                
+                font-weight: bold;
+                font-size: 14px;
+                padding:14px; 
+                height: 12px;
+                float:left;
+                
+            }
+            
+            #more-arrow{
+                
+                height:10px;
+                padding-left:15px; 
+                
+            }
+            
+            #input-bar{
+                
+                background-color:#E4E4E4;
+                border:none;
+                font-weight: bold;
+                font-size: 14px;
+                padding:3px;
+                margin: 10px 0 10px 10px;
+                float:left;
+            }
+            
+            #magnify{
+                
+                height: 22px;
+                margin-top: 10px;
+                
+            }
+            
+            
+            #light-red{
+                
+                width:100%;
+                background-color:#BB1919;
+                height:60px;
+                
+            }
+            h1{
+                
+                padding: 0;
+                margin: 0;
+                color:white;
+                font-weight: normal;
+                font-size: 40px;
+                padding-top:8px;
+                margin-left: -332px;
+                float:left;
+            }
+            #local-news{
+                float: right;
+                margin-right: 200px;
+                margin-top: 5px;
+                border:1px #BB4545 solid;
+                padding: 3px;
+            }
+            #local-news-text{
+                
+                color: white;
+                float: left;
+                font-size:20px;
+                position: relative;
+                margin-left: 5px;
+                margin-right: 3px;
+                top:13px;
+            }
+            #local-news img{
+                
+                height: 35px;
+                margin-top: 5px;
+            }
+            #local-news a{
+                
+                color:white;
+                text-decoration: none;
+                
+            }
+            
+            #local-news a:hover{
+                
+                text-decoration:underline;
+                
+            }
+            
+            #dark-red{
+                
+                width:100%;
+                background-color:#A91717;
+                height:40px;
+                
+            }
+            
+            #dark-red-content{
+                
+                margin-left: 155px;
+            }
+            #dark-red-content a{
+                
+                color:white;
+                text-decoration:none;
+                position:relative;
+                top:11px;
+                font-size: 15px;
+                font-weight: normal;
+                border-right:1px solid #BB4545;
+                padding: 0px 10px;
+                
+            }
+            
+            #dark-red-content a:hover{
+                
+                text-decoration: underline;
+                
+            }
+            
+            .no-border{
+                
+                border:none !important;
+            }
+            
+            .down-arrow{
+                
+                height:10px;
+                position:relative;
+                top:12px
+            }
+            
+            .clear{
+                
+                clear: both;
+            }
+            #menu{
+                
+                width:1000px;  
+                margin: 0 auto;
+            }
+            
+            #technology{
+                
+                color:#404040;
+                font-size: 22px;
+                margin-top: 8px;
+                margin-left:-20px;
+                border-bottom: 3px solid #BB1919;
+                width:113px;
+                
+            }
+            
+            h2{
+                
+                font-size:32px;
+                margin-left: -20px;
+            }
+            h2 a{
+                
+                color:dimgrey;
+                text-decoration:none;
+            }
+            h2 a:hover{
+                
+                color:#1167a8;
+                
+            }
+            #paragraph{
+                
+                width:250px;
+                margin-left: -20px;
+                color:#5A5A5A;
+            }
+            
+            #clock{
+                
+                width:15px;
+                float:left;
+                margin-left: -22px;
+                
+            }
+            
+            .date{
+                
+                text-decoration:none;
+                color:#BB1919;
+                padding-left:5px;
+                border-left:1px solid #CCCCCC;
+            }
+            
+            .date:hover{
+                
+                color:#1167a8;
+            }
+            
+            #hr{
+                
+                margin-top:-10px;
+                margin-left:-20px;
+                width:40px;
+            }
+            #rest{
+                
+                float:left;
+                position:relative;
+                top:-17px;
+                
+            }
+            
+            #main-article{
+                
+                width:390px;
+                margin-left: 10px;
+                margin-right:20px;
+                height:200px;
+                
+            }
+            
+            .more{
+                
+                color:black;
+                text-decoration:none;
+                margin-left:-20px;
+            }
+            .more:hover{
+                
+                color:#1167a8;
+            }
+            #menu-content{
+                
+                border-right:1px #CCCCCC solid;
+                border-bottom: 1px solid #CCCCCC;
+                margin-bottom: -10px;
+                margin-right:200px;
+                height: 400px;
+                float:left;
+            }
+            
+            #watch{
+                
+                font-size:20px;
+                
+                
+            }
+            .last{
+                
+                margin-top: 50px;
+                margin-left: -168px;
+                margin-right: 10px;
+                width: 100px;
+                float:left;
+            }
+            
+            .all{
+                
+                font-weight: bold;
+                font-size:16px;
+                margin-left:-290px;
+                position:relative;
+                top:20px;
+                
+            }
+            
+            #watch a{
+                
+                color:black;
+                text-decoration:none;
+            }
+            #watch a:hover{
+                
+                color:#1167a8;
+                
+            }
+            
+            .side-article{
+                
+                font-size:18px;
+                width:180px;
+                margin-left: -60px;
+                margin-top: 50px;
+                float:left;
+                
+            }
+            .d{
+                
+                color:#5A5A5A;
+            }
+            .myclock{
+                
+                
+                width:15px;
+                position:relative;
+            }
+            .hello{
+                
+                margin-top:-15px;
+            }
+             .kl{
+                
+                margin-top:-28px;
+            }
+            .mylast{
+                
+                margin-top:30px;
+                margin-left: -110px;
+                width:100px;
+            }
+            
+            .jk{
+                
+                position:relative;
+                top: -35px;
+                padding-left: 5px;
+            }
+            
